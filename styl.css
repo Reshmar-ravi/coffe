@@ -25,6 +25,7 @@ li {
   text-decoration: none;
   width: 5em;
   margin-right: 5px;
+ 
 }
 
 .nav {
@@ -186,13 +187,17 @@ footer
 {
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
+  background-color:#ffffff;
+  align-items: center;
   
 }
 
 .contact {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-right: 5rem;
+
 }
 .child {
   display: flex;
@@ -203,6 +208,9 @@ footer
   flex-direction: column;
   justify-content: center;
   background-color: #005f98;
+  border: 1px;
+  border-radius: 5px;
+  width: 25rem;
 }
 .email {
   display: flex;
@@ -211,6 +219,11 @@ footer
 .download {
   display: flex;
   flex-direction: column;
+  padding: 24px;
+  align-self: center;
+  max-width: 396px;
+  text-align: center;
+  width: 100%;
 }
 .download-child {
   display: flex;
